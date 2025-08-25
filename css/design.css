@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+body { 
+     overflow-x: hidden;
+    padding-top: 50px; 
+    
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+
+#brand {
+    font-size : 1.5em; 
+}
+
+#navbar {
+    font-size: 1.2em;
+    font-weight: 500; 
+    
+}
+
+
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    background: #0c1945;
+    border: #000;
+}
+
+#navbar .navbar-nav > li > a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+#navbar .navbar-nav > li > a:hover {
+    color: #cfcbcb;
+}
+
+#brand {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+#brand:hover {
+    color: #cfcbcb;
+}
+
+
+section {
+
+    min-height: 600px; 
+    padding-top: 50px;
+
+}
+
+/* SECTION PRINCIPALE */
+
+#mainsection {
+    padding-top: 50px; 
+    background: url(../images/background.jpg); 
+    min-height: 300px; 
+    background-position: center; 
+    padding-bottom: 50px;
+}
+
+
+.intro-message {
+    text-align: center; 
+    color: white; 
+    font-size: 3em; 
+}
+
+
+#section1 {
+    background: #ffffff; 
+}
+
+
+
+.services-block {
+    width: 100%;
+    border: solid 2px rgba(33, 32, 32, 0.08); 
+    border-radius : 10px; 
+    margin-top : 30px; 
+    margin-bottom : 30px; 
+    margin-right: 60px; 
+}
+
+
+.service {
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    color: #333;
+}
+.service p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+#footer {
+    background: transparent;
+    color: #333;
+    text-align: center;
+    font-size: 1.3em; 
+    border-color:transparent;
+    padding-top: 20px;
+}
+
+
+.contact-info {
+    padding: 50px 0;
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.contact-info a {
+    color: #bdd6f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #c1cfdd;
+}
+
+.footer-col {
+    text-align: center;
+    width: 100%;
+}
